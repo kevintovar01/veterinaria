@@ -12,7 +12,7 @@ public class CitaGeneral extends CitaVeterinariaLigera{
 		this.fecha = fecha;
 		this.hora = hora;
 		this.veterinario = veterinario;
-		this.tipoCita = "Cita general";
+		this.tipoCita = "Revision general";
 	}  
 	
 
@@ -39,7 +39,7 @@ public class CitaGeneral extends CitaVeterinariaLigera{
 	}
 
 
-	public void setTipoCita(String motivo) {
+	public void setTipoCita(String tipoCita) {
 		this.tipoCita = tipoCita;
 	}
 
@@ -62,6 +62,4 @@ public class CitaGeneral extends CitaVeterinariaLigera{
 	public void setHora(String hora) {
 		this.hora = hora;
 	}
-	
-	
 }

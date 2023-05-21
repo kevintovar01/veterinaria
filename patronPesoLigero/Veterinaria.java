@@ -26,8 +26,8 @@ public class Veterinaria {
 		
 	}
 	
-	public void CrearCita(String fecha, String hora, String veterinario, String motivo) {
-		citas.getCita(fecha, hora, veterinario, motivo);
+	public void CrearCita(String fecha, String hora, String veterinario) {
+		citas.getCita(fecha, hora, veterinario);
 	}
 	
 	public void ListadoCitas() {

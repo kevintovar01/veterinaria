@@ -18,7 +18,7 @@ public class FabricaCitas {
 	}
 	
 	
-	public CitaVeterinariaLigera getCita(String fecha, String hora, String veterinario, String motivo) {
+	public CitaVeterinariaLigera getCita(String fecha, String hora, String veterinario) {
 		for(CitaVeterinariaLigera cita: citas) {
 			if(fecha.equals(cita.getFecha()) && hora.equals(cita.getHora())) {
 				return cita;
