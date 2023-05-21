@@ -7,7 +7,7 @@ public class Mascota {
         this.nombre = nombre;
     }
 
-    public void alimentar() {
-        System.out.println("Alimentando a " + nombre);
+    public String alimentar() {
+        return "Alimentando a " + nombre;
     }
 }

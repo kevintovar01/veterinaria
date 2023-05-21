@@ -1,5 +1,5 @@
 package patronStrategy;
 
 public abstract class TratamientoStrategy {
-	public abstract void ejecutar();
+	public abstract String ejecutar();
 }

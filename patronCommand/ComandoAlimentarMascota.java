@@ -7,7 +7,7 @@ public class ComandoAlimentarMascota extends Comando {
         this.mascota = mascota;
     }
 
-    public void ejecutar() {
-        mascota.alimentar();
+    public String ejecutar() {
+        return mascota.alimentar();
     }
 }
