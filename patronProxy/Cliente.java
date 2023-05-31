@@ -11,6 +11,7 @@ public class Cliente {
 		empleado.addPermiso("mostrarInventario");
 		empleado.addPermiso("addProducto");
 		empleado.addPermiso("consultarStock");
+//		empleado.addPermiso("eliminarProductoUnidad");
 		
 		
 		ServicioVeterinaria proxy = new ServicioVeterinariaProxy(empleado);
@@ -18,10 +19,10 @@ public class Cliente {
 		proxy.addProducto("Pelota De Goma", 5);
 		proxy.addProducto("Alimento Perro", 2);
 		proxy.addProducto("Alimento Gato", 1);
-		proxy.addProducto("Pelota de goma", 10);
+		proxy.addProducto("Pelota De Goma", 10);
 		proxy.mostrarInventario(salida);
 		
-		proxy.eliminarProductoUnidad("pelota de goma");
+		proxy.eliminarProductoUnidad("Pelota De Goma");
 	}
 
 }

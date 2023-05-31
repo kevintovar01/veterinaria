@@ -7,8 +7,8 @@ import salida.Salida;
 import salida.SalidaPantalla;
 
 public class FabricaCitas {
-	CitaVeterinariaLigera citaLigera;
-	Salida salida;
+
+	private Salida salida;
 	
 	private List<CitaVeterinariaLigera> citas;
 	

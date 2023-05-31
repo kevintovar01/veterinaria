@@ -14,7 +14,6 @@ public class client {
         veterinaria.setEstrategiaTratamiento(estrategiaTerapiaFisica);
 
         veterinaria.realizarTratamiento();
-
 	}
 
 }

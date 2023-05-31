@@ -20,11 +20,9 @@ public class ListaEmpleados<T> extends Agregado<T>{
 		return empleados.size();
 	}
 
-
 	public T get(int index) {
 		return empleados.get(index);
 	}
-
 
 	public void add(T object) {
 		empleados.add(object);
